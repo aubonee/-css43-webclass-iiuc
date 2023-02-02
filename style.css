@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+
+.class1 img {
+    display: block;
+    width: 500px;
+    height: 300px;
+}
+
+.mask {
+    -webkit-mask-image: url(images/w3logo.png);
+    mask-image: url(images/w3logo.png);
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    margin: 0;
+    height: 450px;
+    width: 450px;
+    display: block;
+}
